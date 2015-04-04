@@ -1,0 +1,12 @@
+# Site settings
+title: WOW DTS Journal
+email: essnato@gmail.com
+description: "This space is totally dedicated to my Journal DTS"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
