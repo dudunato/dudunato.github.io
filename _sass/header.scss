@@ -1,0 +1,128 @@
+/* Site header */
+
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 200px;
+  background-color: rgb(232, 240, 235);
+}
+
+.site-title,
+.site-title:hover,
+.site-title:visited {
+  display: block;
+  color: #7E7A7A;;
+  font-size: 26px;
+  letter-spacing: -1px;
+  line-height: 56px;
+  position: relative;
+  z-index: 1;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.site-nav {
+  float: right;
+  line-height: 56px;
+}
+
+.site-nav .menu-icon { display: none; }
+
+.site-nav .page-link {
+  margin-left: 20px;
+  color: #727272;
+  letter-spacing: -.5px;
+}
+
+.wow {
+  font-size: 70px;
+  margin-top: 65px;
+  font-weight: bold;
+  
+
+  span {
+    float: left;
+
+  }
+
+}
+
+#w {
+
+  color: rgb(239, 141, 29);
+
+  &:before {
+    content: "W";
+  }
+
+  &:hover {
+    content: "";
+    width: 69px;
+    height: 56px;
+    background: url('/images/word.svg');
+    background-size: 69px 56px;
+
+    &:before {
+      content: "";
+    }
+  }
+}
+
+#o {
+
+  color: rgb(56, 146, 249);
+
+  &:before {
+    content: "O";
+  }
+
+  &:hover {
+    content: "";
+    width: 53.4531px;
+    height: 56px;
+    background: url("/images/obedience.svg");
+    background-size: 54px 56px;
+
+    &:before {
+      content: "";
+    }
+  }
+}
+
+#w2 {
+
+  color: rgb(59, 173, 20);
+
+  &:before {
+    content: "W";
+  }
+
+  &:hover {
+    content: "";
+    width: 69px;
+    height: 56px;
+    background: url('/images/worship.svg');
+    background-size: 69px 56px;
+
+    &:before {
+      content: "";
+    }
+  }
+}
+
+.slogan {
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -39px;
+  width: 111px;
+  margin-right: -96px;
+
+  &:hover {
+    color: #C72720 !important;
+    -webkit-transition: color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -o-transition: color 0.4s ease-out;
+    transition: color 0.4s ease-out;
+  }
+}
+

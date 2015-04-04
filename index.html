@@ -4,17 +4,31 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <div class="week-one" >
+    <div class="week-title">
+      Week One
+    </div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <!-- <ul> -->
+    <!--   <li> Title Page</li> -->
+    <!--   <li> Letter to God</li> -->
+    <!--   <li> Why did you choose YWAM Lausanne?</li> -->
+    <!--   <li> Life jorney</li> -->
+    <!-- </ul> -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+
+  <!-- <h1>Posts</h1> -->
+  <!--  -->
+  <!-- <ul class="posts"> -->
+  <!--   {% for post in site.posts %} -->
+  <!--     <li> -->
+  <!--       <span class="post&#45;date">{{ post.date | date: "%b %&#45;d, %Y" }}</span> -->
+  <!--       <a class="post&#45;link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
+  <!--     </li> -->
+  <!--   {% endfor %} -->
+  <!-- </ul> -->
+  <!--  -->
+  <!-- <p class="rss&#45;subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>

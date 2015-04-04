@@ -8,12 +8,21 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrap">
       {{ content }}
-      </div>
     </div>
 
     {% include footer.html %}
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+          $('#w').fadeIn(2000);
+          $('#o').fadeIn(3000);
+          $('#w2').fadeIn(4000);
+          $('.slogan').fadeIn(6000);
+      });
+    </script>
 
     </body>
 </html>
