@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
+.subject {
+  width: 7%;
+  color: white;
+  background-color: #C72720;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  height: 15px;
+
+  span {
+    display: block;
+    margin-left: 5%;
+  }
+}
+
+.title {
+  width: 80%;
+  margin: 0 auto;
+  height: 400px;
+  font-family: 'Playfair Display', serif;
+
+  /* Safari */
+  -webkit-transform: rotate(-20deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-20deg);
+
+  /* IE */
+  -ms-transform: rotate(-20deg);
+
+  /* Opera */
+  -o-transform: rotate(-20deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+  span {
+    display: block;
+    padding-top: 4%;
+    padding-left: 15%;
+
+  }
+
+  .main-title {
+    color: #1a709d;
+    font-size: 104px;
+    font-weight: bold;
+  }
+
+}
+
+.back-icon {
+  float: left;
+  margin-left: 26%;
+  margin-top: 5%;
+  border: 1px solid;
+  padding: 17px;
+  border-radius: 96px;
+  font-size: 13px;
+  display: block;
+
+  svg {
+
+    height: 51px;
+
+    &:hover {
+      fill: #C72720;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+  }
+
+
+}
+
+.letter-icon {
+  float: right;
+  margin-top: -8%;
+  margin-right: 6%;
+  height: 44px;
+
+  &:hover {
+    fill: #C72720;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+}
+
+.letter-box {
+  width: 100%;
+  background-color: rgb(244, 231, 192);
+  float: left;
+}
+
+.letter {
+  width: 50%;
+  padding-top: 5%;
+  float:left;
+  text-align: justify;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.main {
+  width: 50%;
+  float: left;
+}
+
+.main2 {
+  width: 100%;
+  float: left;
+  background-color: #2F303C;
+}
+
+
+.next {
+  margin-left: 33%;
+
+  svg {
+    height: 60px;
+
+    &:hover {
+      fill: #C72720;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+  }
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Cardo);
+.j {
+  font-family: 'Cardo', serif;
+  width: 20%;
+  float: left;
+  padding: 50px;
+  color: white;
+
+  span {
+    cursor: pointer;
+
+  }
+
+  p {
+    font-size: 8px;
+    text-align: justify;
+  }
+
+}
+

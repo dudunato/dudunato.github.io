@@ -15,12 +15,17 @@
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/jquery.zoomooz.min.js"></script>
+    <script src="/js/main.js"></script> <!-- Resource jQuery -->
     <script>
       $(document).ready(function() {
           $('#w').fadeIn(2000);
           $('#o').fadeIn(3000);
           $('#w2').fadeIn(4000);
           $('.slogan').fadeIn(6000);
+
+          $('.banner').unslider();
       });
     </script>
 

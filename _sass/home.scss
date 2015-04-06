@@ -2,31 +2,40 @@
 /* ----------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 
-.home h1 { margin-bottom: 25px; }
-
-.posts { list-style-type: none; }
-
-.posts li { margin-bottom: 30px; }
-
-.posts .post-link {
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-
-.posts .post-date {
-  display: block;
-  font-size: 15px;
-  color: #818181;
+.home {
+  a {
+    width: 25%;
+    display: block;
+    float: left;
+  }
 }
 
 .week-one {
-  width: 25%;
   height: 300px;
   font-family: 'Abril Fatface', cursive;
   color: white;
   font-size: 30px;
   background-color: rgb(54, 152, 89);
+  cursor: pointer;
+
+  svg {
+    margin: 0 auto;
+    display: block;
+    fill: white;
+  }
+
+  &:hover {
+    opacity: 0.6;
+    color: black;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+
+    svg {
+      fill: black;
+    }
+  }
 }
 
 .week-title {
@@ -36,3 +45,14 @@
   padding-top: 55px;
 }
 
+.soon {
+  width: 75% !important;
+
+  div {
+    margin: 0 auto;
+  width: 15px;
+  font-size: 20px;
+  color: black;
+  margin-top: 14%;
+  }
+}
