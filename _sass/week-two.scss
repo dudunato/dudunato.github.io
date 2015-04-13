@@ -1,0 +1,130 @@
+.week-two-page {
+  width: 75%;
+  margin: 0 auto;
+
+  .topic {
+    width: 55%;
+    margin-top: 20px;
+
+    p {
+      margin-left: 25px;
+    }
+
+    &:hover {
+      color: #C72720;
+    }
+  }
+
+  .number {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+
+  .message-desc {
+
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    p {
+      text-align: justify;
+      background-color: rgb(90, 182, 158);
+      padding: 30px;
+      border-radius: 21px;
+    }
+
+
+    &:hover {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+.application {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+
+  p {
+    margin-top: 20px;
+    color: #C72720;
+
+    &:nth-child(2) {
+      background-color: rgb(10, 134, 199);
+      padding: 30px;
+      border-radius: 21px;
+      color: white;
+    }
+
+    &:nth-child(3) {
+      display: block;
+      width: 89%;
+      margin: 0 auto;
+      margin-top: 20px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+  }
+
+}
+
+.character {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+
+  p{
+    &:nth-child(1) {
+      letter-spacing: 0.08em;
+      display: inline-block;
+      transform: scale(1);
+      transition: transform 2s cubic-bezier(0, 1, 0, 1);
+      text-shadow: -0.06em 0 red,  0.06em 0 cyan; /* This creates the 3D effect, pretty easy, eh? */
+      letter-spacing: 0.08em;
+      font-size: 50px;
+    }
+
+    &:nth-child(2) {
+      padding: 30px;
+
+      &:hover {
+        color: #C72720;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.questions {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+
+  p{
+    &:nth-child(1) {
+     font-size: 60px;
+     font-weight: bold;
+     padding: 30px;
+     color: #C72720;
+    }
+
+    &:nth-child(2) {
+      padding: 30px;
+
+      &:hover {
+        color: #C72720;
+        font-weight: bold;
+      }
+    }
+  }
+}

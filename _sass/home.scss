@@ -38,9 +38,37 @@
   }
 }
 
+.week-two {
+  height: 300px;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(73, 28, 41);
+  cursor: pointer;
+
+  svg {
+    margin: 0 auto;
+    display: block;
+    fill: white;
+  }
+
+  &:hover {
+    opacity: 0.6;
+    color: yellowgreen;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+
+    svg {
+      fill: yellowgreen;
+    }
+  }
+}
+
 .week-title {
   font-weight: bolder;
-  width: 147px;
+  width: 150px;
   margin: 0 auto;
   padding-top: 55px;
 }
