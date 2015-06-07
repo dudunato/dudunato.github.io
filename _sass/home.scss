@@ -262,6 +262,33 @@
   }
 }
 
+.week-ten {
+  height: 300px;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 30px;
+  background-color: #5E95C1;
+  cursor: pointer;
+
+  svg {
+    margin: 0 auto;
+    display: block;
+    fill: white;
+  }
+
+  &:hover {
+    color: #00FFF9;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+
+    svg {
+      fill: #00FFF9;
+    }
+  }
+}
+
 
 .week-title {
   font-weight: bolder;
